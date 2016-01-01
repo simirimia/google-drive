@@ -30,7 +30,7 @@ Simplified Google Drive API access based on google/apiclient
 * HTTP version
     * In the list with application types, choose Web Application and give it a name
     * In the field Authorized redirect URIs enter:
-        * http://<your (local) web server url>/<OAuth2 callback handler>
+        * http://< your (local) web server url >/< OAuth2 callback handler >
             * to run the examples (given you have a local system gd-test.app set up):
             * http://gd-test.app/redirecttarget.php  
 * Confirm the popup with client id and secret -> you don't need to remember those now
