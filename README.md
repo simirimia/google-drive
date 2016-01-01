@@ -15,7 +15,9 @@ Simplified Google Drive API access based on google/apiclient
 * HTTP version
     * rename it to app_secret_http.json
     * set up a web server with examples/http as doc root
-    * 
+    * open http://< your (local) web server url >
+        * given you have a local system gd-test.app set up:
+            * http://gd-test.app/index.php 
     
 
 ## How to get the client secret from google
