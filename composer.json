@@ -1,0 +1,22 @@
+{
+  "name": "simirimia/google-drive",
+  "description": "simplified Google Drive API access",
+  "homepage": "https://github.com/simirimia/google-drive",
+  "minimum-stability": "dev",
+  "license": "BSD v3",
+  "authors": [
+    {
+      "name": "simirimia",
+      "email": "simirimia@triosolutions.at"
+    }
+  ],
+  "require": {
+    "php": ">=7",
+    "google/apiclient": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Simirimia\\GoogleDrive\\" : "Simirimia/google-drive/src"
+    }
+  }
+}
